@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("2.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+
+ }
+ 
+.container{
+    max-width: 450px;
+    background-color: rgb(185, 100, 141);
+    border-radius: 8px;
+    box-shadow: 0px,0px,15px,3px rgba(0, 0, 0,0,4);
+    font-family: sans-serif;
+    padding: 20px;
+    background-image: url("1.jpg");
+
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+
+.Temperature-icon{
+    font-size: 40px;
+    color: #1e2101;
+}
+
+h1{
+    color: #6b9dae;
+    letter-spacing: 1.4px;
+    font-size: 30px;
+}
+
+#celcius, #fahareheit, #kelvin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+input{
+    flex: 5;
+    height: 50px;
+    font-size: 20px;
+    width: 300px;
+    font-weight: 60;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px 8px 8px 8px;
+    padding: 0 20px;
+    
+}
+
+#cel{
+    width: 280px;
+}
+
+#fa{
+    width: 280px;
+}
+
+#kel{
+    width: 278px;
+    margin-left: 7px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+} 
+
+.icon{
+    flex: 1;
+    height: 90px;
+    line-height: 70px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 25px;
+    /* background: rgb(163, 237, 14); */
+    color: #d5d2d2;
+    border-radius: 0;
+
+}
+
+.button{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.button button{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 53px;
+}
+
+.button button:hover{
+    /* background-color: #fff; */
+    background: #6b9dae;
+    color: #fff;
+}
